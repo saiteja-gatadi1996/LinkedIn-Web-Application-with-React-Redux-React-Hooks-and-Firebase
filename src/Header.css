@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  background-color: white;
+  
+  border-bottom: 0.1px solid lightgray;
+  padding-top: 5px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  width: 100%;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left > img {
+  margin-left: 50px;
+  padding: 10px;
+  object-fit: contain;
+
+  height: 40px;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  padding-left: 15px;
+  background-color: rgb(239, 243, 245);
+}
+
+.header__search > input {
+  height: 25px;
+  width: 250px;
+  border: none;
+  outline-width: 0;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(239, 243, 245);
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  margin:auto
+}
